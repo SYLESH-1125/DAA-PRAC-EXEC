@@ -1,5 +1,5 @@
 To analyze the number of comparisons made by linear search across various input sizes, we implemented a Python program that simulates best, average, and worst-case scenarios for input sizes such as 
 100, 500, 1000, 5000, and 10000. In the best case, the searched element is placed at the first index, requiring only one comparison (O(1)). In the average case, the element is placed at the middle 
 (around n/2 comparisons). For the worst case, the element is not present, resulting in n comparisons. The program runs the linear search and counts the number of comparisons in each case for every 
-input size. The number of comparisons is then plotted against input sizes using matplotlib, showing a linear growth pattern. Theoretical expectations match well with empirical results—comparisons 
+input size. The number of comparisons is then plotted against input sizes using matplotlib, showing a linear growth pattern. Theoretical expectations match well with empirical results comparisons 
 in the best case remain constant (1), average case grows as O(n/2), and worst case as O(n). This confirms that linear search scales linearly with input size in practical scenarios.
